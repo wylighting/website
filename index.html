@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml"> -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/brands.min.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/regular.min.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <title>Haocheng Ren</title>
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="header-content">
+            <h1><a href="./index.html">Haocheng Ren</a></h1>
+        </div>
+        <div class="line"></div>
+        <div class="content">
+
+            <div class="about">
+                <a href="mailto:swordigo@zju.edu.cn"><img class="avatar" src="images/misc/self/self2.jpg"></a>
+
+                <h1><i class="far fa-grin"></i> About me</h1>
+                <!-- <i class="fa-regular fa-face-smile"></i> -->
+
+                <p>
+
+                <p style="margin-top: 10px;">
+                    I'm currently a PhD student at the State Key Lab of CAD&CG at <a href="">Zhejiang University</a>,
+                    advised by <a href="http://www.cad.zju.edu.cn/home/rwang/">Professor Rui Wang</a> (also Founder of <a href="https://www.raysengine.com">RaysEngine Ltd</a>).
+                    I obtained my bachelor's degree from <a href="https://en.uestc.edu.cn/">UESTC</a>.
+                </p>
+
+                <p style="margin-top: 10px;">
+                    My reserach interest lies on the intersection of <strong>Computer Graphics</strong> and
+                    <strong>Artificial Intelligence</strong>, especially neural rendering, light transport simulation,
+                    3D scene synthesis.
+                    My previous work has focused on scene modeling and rendering through data-driven methods.
+
+                </p>
+
+
+                <p style="margin-top: 10px;">
+                    I will finish my PhD this year. Feel free to contact me if you are interested!
+                </p>
+
+                <p class="resourcelist" style="margin-top: 10px;">
+                    <a href="swordigo@zju.edu.cn"><i class="far fa-envelope"></i> Email</a>
+                    <a href="https://github.com/wylighting"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/haocheng-ren-a8b126156/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </p>
+            </div>
+
+            <h1 id="sec-publications"><i class="far fa-sparkles"></i> Highlights</h1>
+            <p style="margin-left: 24px; font-size: 10pt; margin-top: 6px; ">You can click <i class="far fa-hand-point-up"></i> the blue words for more information </p>
+            <ul style="list-style-type: disc;">
+                <li> Two tech companies (<a href="https://www.kujiale.com">Kujiale.com</a> and  <a href="https://www.raysengine.com">RaysEngine</a>) reported my research at their offical platforms in multiple articles [<a href="https://mp.weixin.qq.com/s/7fK1o8DkNKJitlEo87Jzgg">News1</a>, <a href="https://mp.weixin.qq.com/s/_1BLXJhBRYhqwPcZEuDrOw">News2</a>, <a href="https://mp.weixin.qq.com/s/uhOOLHH4_IAyGiGcgKlWRQ">News3</a>], featuring the contribution for their AIGC applications, especially the all-new <a href="https://mp.weixin.qq.com/s/3wC2___K_epZZJ5qheaujg">AI lighting design tool</a> of Kujiale. </li>
+                <li> The reviewer of SIGGRAPH 2024 (journal-only track) gave a <a href="images/highlights/reviews.txt">Strong Accept</a> (full score) to our paper 'LightFormer'. <a href="images/highlights/presig24.mp4">Oral presentation at SIGGRAPH 2024</a>.</li>
+                <li> ACM TOG selected my paper as the <a href="https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3579817">cover image</a>!</li>
+                <li> Kujiale.com implemented my research (MINERVAS) as their commercial product. <a href="https://www.kujiale.com/coohomcloud/minervas#/data-square">Try it now!</a></li>
+            </ul>
+            
+
+            <h1 id="sec-publications"><i class="far fa-podium-star"></i> Featured Publications</h1>
+
+            <div id="portfolio" class="portfolio-item"
+                onmouseover="document.getElementById('ren24lightformer-video').play()"
+                onmouseout="document.getElementById('ren24lightformer-video').pause()">
+                <div class="portfolio-image">
+                    <a href="https://wylighting.github.io/lightformer/static/pdf/paper.pdf">
+                        <video muted loop preload="auto" poster="images/publications/ren24lightformer/cover.png"
+                            id="ren24lightformer-video">
+                            <source src="images/publications/ren24lightformer/h264.mp4" type="video/mp4">
+                            <img src="images/publications/ren24lightformer/cover.jpg">
+                        </video>
+                    </a>
+                </div>
+                <div class="portfolio-text">
+                    <h2>
+                        <a href="https://wylighting.github.io/lightformer/static/pdf/paper.pdf">
+                            LightFormer: Light-Oriented Global Neural Rendering in Dynamic Scene
+                        </a>
+                    </h2>
+                    <p class="authorlist">
+                        <span style="white-space: nowrap; font-weight: bold; text-decoration: underline">Haocheng
+                            Ren</span>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
+                        <a style="white-space: nowrap;" href="https://www.eee.hku.hk/~evanpeng/">Yifan (Evan) Peng</a>,
+                        <span style="white-space: nowrap;">Hongtao Sheng</span>,
+                        <span style="white-space: nowrap;">Weidong Xue</span>,
+                        <span style="white-space: nowrap;">Hongxiang Huang</span>,
+                        <span style="white-space: nowrap;">Jingzhen Lan</span>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>
+                    </p>
+                    <p class="venue"><a href="https://dl.acm.org/doi/10.1145/3658229">ACM Transactions on
+                            Graphics (SIGGRAPH 2024)</a>, July 2024</p>
+                    <!-- <p class="venue"><i class="far fa-award"></i> <strong>SIGGRAPH Asia</strong> Best Paper Award</p> -->
+                    <p class="resourcelist">
+                        <span style="white-space: nowrap;">
+                            <a href="https://wylighting.github.io/lightformer/"><i
+                                    class="far fa-external-link"></i> Project Page</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://wylighting.github.io/lightformer/static/pdf/paper.pdf"><i
+                                    class="far fa-file-alt"></i> Paper</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="images/highlights/presig24.mp4"><i class="far fa-video"></i> Talk</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="images/highlights/reviews.txt"><i class="far fa-book"></i>
+                                Reviews</a>
+                        </span>
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div id="portfolio" class="portfolio-item"
+                onmouseover="document.getElementById('ren23lighting-video').play()"
+                onmouseout="document.getElementById('ren23lighting-video').pause()">
+                <div class="portfolio-image">
+                    <a href="https://coohom.github.io/LIGHTING/static/pdf/paper.pdf">
+                        <video muted loop preload="auto" poster="images/publications/ren23lighting/cover.png"
+                            id="ren23lighting-video">
+                            <source src="images/publications/ren23lighting/video.mp4" type="video/mp4">
+                            <img src="images/publications/ren23lighting/cover.png">
+                        </video>
+                    </a>
+                </div>
+                <div class="portfolio-text">
+                    <h2>
+                        <a href="https://coohom.github.io/LIGHTING/static/pdf/paper.pdf">
+                            Data-driven Digital Lighting Design for Residential Indoor Spaces
+                        </a>
+                    </h2>
+                    <p class="authorlist">
+                        <span style="white-space: nowrap; font-weight: bold; text-decoration: underline">Haocheng Ren</span>,
+                        <span style="white-space: nowrap;">Hangming Fan</span>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
+                        <a style="white-space: nowrap;" href="https://scholar.google.com/citations?user=dwvfKSkAAAAJ&hl=en">Rui Tang</a>,
+                        <span style="white-space: nowrap;">Lei Wang</span>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>
+                    </p>
+                    <p class="venue"><a href="https://dl.acm.org/doi/10.1145/3582001">ACM Transactions on
+                            Graphics (Presented at SIGGRAPH 2023)</a>, June 2023</p>
+                    <p class="venue"><a href="https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3579817"><i class="far fa-award"></i><strong> Selected as TOG cover</strong></a> </p>
+                    <p class="resourcelist">
+                        <span style="white-space: nowrap;">
+                            <a href="https://coohom.github.io/LIGHTING"><i
+                                    class="far fa-external-link"></i> Project Page</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://coohom.github.io/LIGHTING/static/pdf/paper.pdf"><i
+                                    class="far fa-file-alt"></i> Paper</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://www.bilibili.com/video/BV1mA41117qw"><i class="far fa-video"></i> Talk (GAMES Webiner)</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://mp.weixin.qq.com/s/_1BLXJhBRYhqwPcZEuDrOw"><i class="far fa-newspaper"></i>
+                                News1</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://mp.weixin.qq.com/s/7fK1o8DkNKJitlEo87Jzgg"><i class="far fa-newspaper"></i>
+                                News2</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://mp.weixin.qq.com/s/uhOOLHH4_IAyGiGcgKlWRQ"><i class="far fa-newspaper"></i>
+                                News3</a>
+                        </span>
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div id="portfolio" class="portfolio-item"
+                onmouseover="document.getElementById('ren22minervas-video').play()"
+                onmouseout="document.getElementById('ren22minervas-video').pause()">
+                <div class="portfolio-image">
+                    <a href="https://coohom.github.io/MINERVAS/">
+                        <video muted loop preload="auto" poster="images/publications/ren22minervas/cover.png"
+                            id="ren22minervas-video">
+                            <source src="images/publications/ren22minervas/PG2022_MINERVAS_slides3.mp4" type="video/mp4">
+                            <img src="images/publications/ren22minervas/cover.png">
+                        </video>
+                    </a>
+                </div>
+                <div class="portfolio-text">
+                    <h2>
+                        <a href="https://coohom.github.io/MINERVAS/">
+                            MINERVAS: Massive INterior EnviRonments VirtuAl Synthesis
+                        </a>
+                    </h2>
+                    <p class="authorlist">
+                        <span style="white-space: nowrap; font-weight: bold; text-decoration: underline">Haocheng Ren</span>,
+                        <span style="white-space: nowrap;">Hao Zhang</span>,
+                        <a style="white-space: nowrap;" href="https://bertjiazheng.github.io">Jia Zheng</a>,
+                        <span style="white-space: nowrap;">Jiaxiang Zheng</span>,
+                        <a style="white-space: nowrap;" href="https://scholar.google.com/citations?user=dwvfKSkAAAAJ&hl=en">Rui Tang</a>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>
+                        <a style="white-space: nowrap;" href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>,
+                    </p>
+                    <p class="venue"><a href="https://dl.acm.org/doi/10.1145/3582001">Computer Graphics Forum (PG 2022)</a>, August 2022</p>
+                    <p class="resourcelist">
+                        <span style="white-space: nowrap;">
+                            <a href="https://coohom.github.io/MINERVAS/"><i
+                                    class="far fa-external-link"></i> Project Page</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://arxiv.org/pdf/2107.06149"><i
+                                    class="far fa-file-alt"></i> Paper</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                            <a href="https://www.bilibili.com/video/BV1nb421Y7mJ"><i class="far fa-video"></i> Talk</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                           <a href="https://www.kujiale.com/coohomcloud/minervas#/data-square"><i class="far fa-video"></i> Product</a>
+                        </span>
+                        <span style="white-space: nowrap;">
+                           <a href="https://coohom.github.io/cloud-docs/"><i class="far fa-video"></i> Documentation</a>
+                        </span>
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+        </div>
+        <div class="footer-content">
+            <div class="thinline"></div>
+            <p>Template borrowed from <a style="color: #333333" href="https://tom94.net">Thomas Müller</a> </p>
+        </div>
+    </div>
+</body>
+
+</html>
